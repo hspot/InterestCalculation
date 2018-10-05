@@ -1,5 +1,4 @@
 InterestCalculation
-
 Credit card interest calculation by Howard Nguyen
 
 Framework: .NET Core 2.1
