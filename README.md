@@ -11,5 +11,5 @@ From solution root path, run command: dotnet test InterestCalculation.UnitTests
 
 HOW TO RUN CONSOLE/SHELL TESTER:
 From solution root path, run commands:
-1. cd InterestCalculation.Runner\bin\Debug\netcoreapp2.1
+1. cd InterestCalculation.Runner/bin/Debug/netcoreapp2.1
 2. dotnet InterestCalculation.Runner.dll
