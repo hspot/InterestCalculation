@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CreditCardData.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InterestCalculation.Entities\InterestCalculation.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="InterestRates.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
