@@ -16,7 +16,6 @@ From solution root path, run commands:
 
 **FILES OF INTEREST**
 1. InterestCalculation.UnitTests.CreditCardInterestLogicTests.cs
-
       Unit tests to show simple interest calculations using xUnit and Moq.
 
 2. InterestCalculation.DataAccess.IXmlFileInterestRateDataAccess.cs
