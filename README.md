@@ -28,4 +28,5 @@ From solution root path, run commands:
       *Separating the responsibility of calculating simple interest and the responsibility of querying for interest rates of each card type.*
 
 5. InterestCalculation.Entities.CreditCard: ICreditCard.cs, CreditCard.cs, DiscoverCreditCard.cs, MasterCardCreditCard.cs, VisaCreditCard:  
-      *A CreditCard instance can be cleanly replaced by instances of its subtypes.*
+      *A CreditCard instance can be cleanly replaced by instances of its subtypes.*  
+      *Note: Methods could be added to these entities to demonstrate open/closed principal. I personally don't like to add logic code to entities however.*
